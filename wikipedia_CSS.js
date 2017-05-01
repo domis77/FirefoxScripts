@@ -12,7 +12,7 @@
 $("head").prepend("<style type=\"text/css\">" + 
                                 "@font-face {\n" +
                                     "\tfont-family: \"SanFrancisco\";\n" + 
-                                    "\tsrc: local('¢'), url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff') format('opentype');\n" + 
+                                    "\tsrc: local('â˜º'), url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff') format('opentype');\n" + 
                                 "}\n" + 
                             "</style>");
 
@@ -29,12 +29,12 @@ $('.mw-body-content').css({
 
 
 /* style english language button */
-$('.interwiki-en').css({
+$('.interwiki-en, .interwiki-pl').css({
   "background-color": "#c6c6c6"
 });
 
-$('.interwiki-en').children().css({
-   "color": "red",
+$('.interwiki-en, .interwiki-pl').children().css({
+   "color": "#8c1313",
    "margin-left": "25%",
    "font-family": '"SanFrancisco",sans-serif"',
    "font-size": "140%"
